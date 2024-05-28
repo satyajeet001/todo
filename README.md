@@ -1,4 +1,3 @@
-# todo
 # Todo App
 
 This is a simple todo application built with React for the frontend and Node.js/Express for the backend.
