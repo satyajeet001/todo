@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.todo-container h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+.todo-container input {
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #222831;
+  height: 60px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 1000px;
+  width: 600px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: aliceblue;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #1ebcf5, #09daf1);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  height: 44px;
+  padding: 0 20px;
+  pointer-events: auto;
+  text-align: center;
+  touch-action: manipulation;
+  width: 100px;
+  z-index: 9;
+  border: 0;
+}
+
+.button-41:hover {
+  background: #008ebd;
+}
+
+.task-details {
+  color: #ffffff;
+}
