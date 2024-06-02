@@ -11,7 +11,7 @@ function App() {
     e.preventDefault();
     const newTask = { taskName, startDate, endDate };
 
-    const response = await fetch("https://todo-api-two.vercel.app//todos", {
+    const response = await fetch("https://todo-api-two.vercel.app/todos", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
